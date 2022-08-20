@@ -1,0 +1,14 @@
+@font-face {
+	font-family: FrederickatheGreat;
+	font-weight: 400;
+	src: local("FrederickatheGreat"),
+		url("../assets/fonts/FrederickaTheGreat/FrederickatheGreat-Regular.ttf")
+			format("truetype");
+}
+
+@font-face {
+	font-family: Montserrat;
+	font-weight: 400;
+	src: local("Montserrat"),
+		url("../assets/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}

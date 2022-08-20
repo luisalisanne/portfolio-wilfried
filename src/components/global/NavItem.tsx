@@ -16,9 +16,12 @@ export default function NavItem(props: NavItemProps) {
 					isActive
 						? {
 								textDecoration: "underline",
+								textDecorationThickness: "1px",
+								textUnderlineOffset: "2px",
 						  }
 						: {}
 				}
+				className="hover:text-blue-500"
 			>
 				{children}
 			</NavLink>
