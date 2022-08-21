@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 interface NavItemProps {
 	destination: string;
-	children: string;
+	children: string | React.ReactNode;
 }
 
 export default function NavItem(props: NavItemProps) {
@@ -15,13 +15,11 @@ export default function NavItem(props: NavItemProps) {
 				style={({ isActive }) =>
 					isActive
 						? {
-								textDecoration: "underline",
-								textDecorationThickness: "1px",
-								textUnderlineOffset: "2px",
+								visibility: "hidden",
 						  }
 						: {}
 				}
-				className="hover:text-blue-500"
+				className="hover:text-slate-500"
 			>
 				{children}
 			</NavLink>

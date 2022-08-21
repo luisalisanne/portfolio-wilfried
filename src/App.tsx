@@ -4,7 +4,8 @@ import About from "./views/About";
 import Contact from "./views/Contact";
 import Exhibitions from "./views/Exhibitions";
 import Home from "./views/Home";
-import Works from "./views/Works";
+import Work from "./views/Work";
+import "./config/i18n.ts";
 
 export default function App() {
 	return (
@@ -12,7 +13,7 @@ export default function App() {
 			<Routes>
 				<Route index element={<Home />} />
 				<Route path="about" element={<About />} />
-				<Route path="works" element={<Works />} />
+				<Route path="work" element={<Work />} />
 				<Route path="exhibitions" element={<Exhibitions />} />
 				<Route path="contact" element={<Contact />} />
 			</Routes>
