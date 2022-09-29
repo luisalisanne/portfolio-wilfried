@@ -15,6 +15,16 @@
 	"views": {
 		"about": {
 			"intro": "As an artist, I seek to make a photography of life in this world, through various objects which convey information about politics, society, history and human conditions. This research is led by a desire to say things, not to please, but to say the things that need to be said. For the human evolution and construction, through a universal object, an object that travels, an object that contains men and women faces, messages, portraits of here and elsewhere. Black, white, yellow faces. Muslims, Christians, Buddhists, traditionalists, philosophers, theists, freethinkers, poor, rich, etc. This multitude of descriptions is a central node in my work and in the diversity of content it offers."
+		},
+		"contact": {
+			"form": {
+				"name": "Name",
+				"email": "Email address",
+				"message": "Message",
+				"button": "Send",
+				"successMessage": "Your email has been sent :)",
+				"errorMessage": "Oops, something went wrong :("
+			}
 		}
 	}
 }
