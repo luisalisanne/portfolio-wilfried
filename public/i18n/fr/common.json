@@ -1,0 +1,20 @@
+{
+	"global": {
+		"name": "Wilfried Nakeu",
+		"description": "Artiste Multimédia Multidisciplinaire",
+		"routes": {
+			"about": "Sur",
+			"contact": "Contacter",
+			"exhibitions": "Exhibitions",
+			"work": "Travail"
+		},
+		"language": {
+			"switch": "Switch to English"
+		}
+	},
+	"views": {
+		"about": {
+			"intro": "Bonjour je m'appelle Wilfried, c'est comment?"
+		}
+	}
+}

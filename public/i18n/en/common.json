@@ -1,12 +1,15 @@
 {
 	"global": {
-		"name": "Wilfied Nakeu",
+		"name": "Wilfried Nakeu",
 		"description": "Multidisciplinary Multimedia Artist",
 		"routes": {
 			"about": "About",
 			"contact": "Contact",
 			"exhibitions": "Exhibitions",
 			"work": "Work"
+		},
+		"language": {
+			"switch": "Passer à français"
 		}
 	},
 	"views": {
