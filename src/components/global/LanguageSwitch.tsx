@@ -15,7 +15,10 @@ export default function LanguageSwitch() {
 	};
 
 	return (
-		<button onClick={() => toggleLang(currentLang === "en" ? "fr" : "en")}>
+		<button
+			className="p-0.5 hover:bg-black hover:text-white"
+			onClick={() => toggleLang(currentLang === "en" ? "fr" : "en")}
+		>
 			{t("global.language.switch")}
 		</button>
 	);

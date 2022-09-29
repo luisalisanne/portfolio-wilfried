@@ -1,10 +1,11 @@
-import React from "react";
+import ExternalLinksMenu from "../components/global/ExternalLinksMenu";
 import LanguageSwitch from "../components/global/LanguageSwitch";
 
 export default function Footer() {
 	return (
-		<div className="absolute bottom-2">
+		<footer className="fixed bottom-0 w-screen p-3 bg-white text-end flex justify-between">
+			<ExternalLinksMenu />
 			<LanguageSwitch />
-		</div>
+		</footer>
 	);
 }

@@ -3,13 +3,13 @@
 		"name": "Wilfried Nakeu",
 		"description": "Artiste Multimédia Multidisciplinaire",
 		"routes": {
-			"about": "Sur",
-			"contact": "Contacter",
-			"exhibitions": "Exhibitions",
-			"work": "Travail"
+			"about": "L'artiste",
+			"contact": "Contact",
+			"exhibitions": "Expositions",
+			"work": "Galérie"
 		},
 		"language": {
-			"switch": "Switch to English"
+			"switch": "English"
 		}
 	},
 	"views": {

@@ -3,8 +3,12 @@ import { NavLink } from "react-router-dom";
 
 interface NavItemProps {
 	destination: string;
-	children: string | React.ReactNode;
+	children: string;
 }
+
+/**
+ * Component that renders a nav item for the menu
+ */
 
 export default function NavItem(props: NavItemProps) {
 	const { destination, children } = props;
@@ -19,7 +23,7 @@ export default function NavItem(props: NavItemProps) {
 						  }
 						: {}
 				}
-				className="hover:text-slate-500"
+				className="hover:text-yellow-300"
 			>
 				{children}
 			</NavLink>
