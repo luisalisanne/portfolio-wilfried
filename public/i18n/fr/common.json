@@ -6,7 +6,7 @@
 			"about": "L'artiste",
 			"contact": "Contact",
 			"exhibitions": "Expositions",
-			"work": "Galérie"
+			"works": "Galérie"
 		},
 		"language": {
 			"switch": "English"
@@ -14,7 +14,188 @@
 	},
 	"views": {
 		"about": {
-			"intro": "Bonjour je m'appelle Wilfried, c'est comment?"
+			"headline": "*1990 à Yaoundé, Cameroun, vie et travaille à Paris.",
+			"intro": "Formé à l'informatique, Wilfried Nakeu est un artiste pluridisciplinaire. Son travail qui comprend performance, musique, slam, photographie, sculpture, peinture et vidéo fait appel à l’expérience commune et repousse les limites entre artiste, acteur, et spectateur, faisant de ce dernier un participant à l’œuvre. S’il interroge ainsi les relations entre les humains, Nakeu se penche aussi sur celles que nous entretenons avec la nature. Son travail explore la conscience environne- mentale et décoloniale, les systèmes de connaissance, et la spiritualité africaine."
+		},
+		"contact": {
+			"form": {
+				"name": "Nom",
+				"email": "Adresse email",
+				"message": "Message",
+				"button": "Envoyer",
+				"successMessage": "Your email has been sent :)",
+				"errorMessage": "Oops, something went wrong :("
+			}
+		},
+		"works": {
+			"la_mer_noire": {
+				"title": "La Mer Noire",
+				"year": "2020",
+				"pieces": {
+					"crimes_detats_1": {
+						"title": "Crimes d'états 1",
+						"technique": "Acrylique, textile sur papier (carte)",
+						"size": "1,95x1,22m",
+						"year": "2020"
+					},
+					"crimes_detats_2": {
+						"title": "Crimes d'états 2",
+						"technique": "Acrylique, textile sur papier (carte)",
+						"size": "1,95x1,22m",
+						"year": "2020"
+					},
+					"crimes_detats_3": {
+						"title": "Crimes d'états 2",
+						"technique": "Acrylique, textile sur papier (carte)",
+						"size": "1,95x1,22m",
+						"year": "2020"
+					}
+				}
+			},
+			"autoportrait_memoire": {
+				"title": "Autoportrait Memoire",
+				"year": "2020",
+				"pieces": {
+					"megne_si": {
+						"title": "Megne Si",
+						"technique": "Acrylique sur papier canson",
+						"size": "29x42cm",
+						"year": "2020"
+					},
+					"mami_nton": {
+						"title": "Mami Nton",
+						"technique": "Acrylique sur papier canson",
+						"size": "29x42cm",
+						"year": "2020"
+					},
+					"nyango": {
+						"title": "Nyango",
+						"technique": "Acrylique sur papier canson",
+						"size": "29x42cm",
+						"year": "2020"
+					},
+					"ida": {
+						"title": "Ida",
+						"technique": "Acrylique sur papier canson",
+						"size": "29x42cm",
+						"year": "2020"
+					},
+					"tsafack": {
+						"title": "Tsafack",
+						"technique": "Acrylique sur papier canson",
+						"size": "29x42cm",
+						"year": "2020"
+					},
+					"messi": {
+						"title": "Messi",
+						"technique": "Acrylique sur papier canson",
+						"size": "29x42cm",
+						"year": "2020"
+					}
+				}
+			},
+			"autoportrait_pro": {
+				"title": "Autoportrait Pro",
+				"year": "2022",
+				"pieces": {
+					"ali": {
+						"title": "Ali",
+						"technique": "Acrylique et charbon sur papier carton rigide 3ml",
+						"size": "80x60cm",
+						"year": "2022"
+					},
+					"michelle": {
+						"title": "Michelle",
+						"technique": "Acrylique et charbon sur papier carton rigide 3ml",
+						"size": "80x60cm",
+						"year": "2022"
+					},
+					"loic": {
+						"title": "Loic",
+						"technique": "Acrylique et charbon sur papier carton rigide 3ml",
+						"size": "80x60cm",
+						"year": "2022"
+					},
+					"simone": {
+						"title": "Simone",
+						"technique": "Acrylique et charbon sur papier carton rigide 3ml",
+						"size": "80x60cm",
+						"year": "2022"
+					}
+				}
+			},
+			"not_your_negro": {
+				"title": "Not Your Negro",
+				"year": "2020",
+				"pieces": {
+					"test": {
+						"title": "Test",
+						"technique": "Test",
+						"size": "00x00cm",
+						"year": "1312"
+					}
+				}
+			},
+			"reconnexion_spirituelle": {
+				"title": "Reconnexion Spirituelles des Politiques Africaines",
+				"year": "2022",
+				"pieces": {
+					"test": {
+						"title": "Test",
+						"technique": "Test",
+						"size": "00x00cm",
+						"year": "1312"
+					}
+				}
+			},
+			"oqt_structure": {
+				"title": "Obligation Quitter le Territoire | Sculpture",
+				"year": "2022",
+				"pieces": {
+					"test_0": {
+						"title": "Test",
+						"technique": "Test",
+						"size": "00x00cm",
+						"year": "1312"
+					},
+					"test_1": {
+						"title": "Test",
+						"technique": "Test",
+						"size": "00x00cm",
+						"year": "1312"
+					},
+					"test_2": {
+						"title": "Test",
+						"technique": "Test",
+						"size": "00x00cm",
+						"year": "1312"
+					}
+				}
+			},
+			"oqt_peinture": {
+				"title": "Obligation Quitter Le Territoire | Peinture",
+				"year": "2022/2023",
+				"pieces": {
+					"test": {
+						"title": "Test",
+						"technique": "Test",
+						"size": "00x00cm",
+						"year": "1312"
+					}
+				}
+			},
+			"voodoo": {
+				"title": "Voodoo",
+				"year": "2022",
+				"pieces": {
+					"test": {
+						"title": "Test",
+						"technique": "Test",
+						"size": "00x00cm",
+						"year": "1312"
+					}
+				}
+			}
 		}
 	}
 }
