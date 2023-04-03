@@ -23,7 +23,7 @@ export default function NavItem(props: NavItemProps) {
 						  }
 						: {}
 				}
-				className="hover:text-yellow-300"
+				className="p-1 hover:bg-black hover:text-white"
 			>
 				{children}
 			</NavLink>

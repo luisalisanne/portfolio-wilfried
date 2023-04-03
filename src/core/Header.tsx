@@ -7,15 +7,35 @@ export default function Header() {
 	const location = useLocation();
 	const { t } = useTranslation();
 	const [isOpen, setIsOpen] = useState(false);
+	const hamburgerLine = `h-1 w-8 my-1 bg-black transition ease transform duration-300`;
 
 	return (
 		<header className="w-screen fixed top-0 pt-5 pb-5 bg-white">
 			<button
-				className="text-end md:hidden absolute right-5 top-3"
+				className="flex flex-col h-10 w-10 justify-center items-center group text-end absolute right-5 top-3 md:hidden"
 				onClick={() => setIsOpen(!isOpen)}
 			>
-				{/* TODO: REPLACE "x" WITH ANIMATED ICON */}x
+				<div
+					className={`${hamburgerLine} ${
+						isOpen
+							? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
+							: "opacity-50 group-hover:opacity-100"
+					}`}
+				/>
+				<div
+					className={`${hamburgerLine} ${
+						isOpen ? "opacity-0" : "opacity-50 group-hover:opacity-100"
+					}`}
+				/>
+				<div
+					className={`${hamburgerLine} ${
+						isOpen
+							? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
+							: "opacity-50 group-hover:opacity-100"
+					}`}
+				/>
 			</button>
+
 			<nav className="md:w-2/3 mx-auto flex justify-between font-heading md:items-end">
 				<NavLink
 					to="/"
@@ -33,7 +53,7 @@ export default function Header() {
 					}`}
 				>
 					<NavItem destination="/about">{t("global.routes.about")}</NavItem>
-					<NavItem destination="/work">{t("global.routes.work")}</NavItem>
+					<NavItem destination="/works">{t("global.routes.works")}</NavItem>
 					<NavItem destination="/exhibitions">
 						{t("global.routes.exhibitions")}
 					</NavItem>
