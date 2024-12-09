@@ -8,15 +8,19 @@ export default function ExternalLinksMenu() {
 	return (
 		<nav>
 			<ul className="flex gap-1">
-				<li className="hover:bg-yellow-200 p-0.5">
+				<li className="hover:bg-pink-400 hover:text-white p-0.5">
 					<a href="https://www.instagram.com/wilfriednakeu/" target="_blank">
 						Instagram
 					</a>
 				</li>
-				<li className="hover:bg-yellow-200 p-0.5">
-					<a href="" target="_blank">
-						Test
-					</a>
+				<li className="hover:bg-pink-400 hover:text-white p-0.5">
+					<button
+						onClick={() =>
+							(window.location.href = "mailto:visualuisa@posteo.de")
+						}
+					>
+						Contactez-moi
+					</button>
 				</li>
 			</ul>
 		</nav>

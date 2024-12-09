@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 export default function HeroSection() {
 	const { t } = useTranslation();
 	return (
-		<div className="md:fixed md:bottom-0 flex flex-col-reverse md:flex-row gap-2 md:gap-0 justify-evenly items-center md:mt-24">
+		<div className="lg:fixed lg:bottom-0 flex flex-col-reverse lg:flex-row gap-2 md:gap-0 justify-evenly items-center lg:mt-24">
 			<div>
 				<h1 className="font-heading text-5xl md:text-7xl md:text-end">
 					{t("global.name")}
