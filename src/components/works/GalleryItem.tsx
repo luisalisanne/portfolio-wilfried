@@ -1,11 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export interface GalleryItemProps {
-	title: string;
-	technique: string;
-	size: string;
-	year: string;
-	imgSrc: string;
+	project: string;
+	piece: string;
 }
 
 /**
@@ -13,16 +11,22 @@ export interface GalleryItemProps {
  */
 
 export default function GalleryItem(props: GalleryItemProps) {
-	const { title, technique, size, year, imgSrc } = props;
+	const { project, piece } = props;
+	const { t } = useTranslation();
+	const i18nextPath = `views.works.${project}.pieces.${piece}`;
+
 	return (
-		<div key={title}>
-			<img src={imgSrc} alt={title} />
+		<div key={t(`${i18nextPath}.title`)}>
+			<img
+				src={`../${t(`${i18nextPath}.src`)}`}
+				alt={t(`${i18nextPath}.alt`)}
+			/>
 			<span>
 				<ul className="flex justify-between bg-black gap-1 md:gap:2 xl:gap-3 text-xs text-white p-1">
-					<li>{title}</li>
-					<li>{technique}</li>
-					<li>{size}</li>
-					<li>{year}</li>
+					<li>{t(`${i18nextPath}.title`)}</li>
+					<li>{t(`${i18nextPath}.technique`)}</li>
+					<li>{t(`${i18nextPath}.size`)}</li>
+					<li>{t(`${i18nextPath}.year`)}</li>
 				</ul>
 			</span>
 		</div>

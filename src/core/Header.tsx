@@ -8,7 +8,7 @@ export default function Header() {
 	const { t } = useTranslation();
 
 	return (
-		<header className="w-screen fixed top-0 px-1 md:px-0 pt-5 pb-5 bg-white">
+		<header className="w-screen fixed top-0 px-1 md:px-0 pt-5 pb-5 bg-white opacity-90">
 			<nav className="md:w-2/3 mx-auto flex justify-between font-heading md:items-end">
 				<NavLink
 					to="/"
