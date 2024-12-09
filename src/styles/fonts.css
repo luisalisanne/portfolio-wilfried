@@ -1,9 +1,8 @@
 @font-face {
-	font-family: FrederickatheGreat;
+	font-family: Barrio;
 	font-weight: 400;
-	src: local("FrederickatheGreat"),
-		url("../assets/fonts/FrederickaTheGreat/FrederickatheGreat-Regular.ttf")
-			format("truetype");
+	src: local("Barrio"),
+		url("../assets/fonts/Barrio/Barrio-Regular.ttf") format("truetype");
 }
 
 @font-face {
