@@ -17,6 +17,36 @@
 			"headline": "*1990 à Yaoundé, Cameroun, vie et travaille à Paris.",
 			"intro": "Formé à l'informatique, Wilfried Nakeu est un artiste pluridisciplinaire. Son travail qui comprend performance, musique, slam, photographie, sculpture, peinture et vidéo fait appel à l’expérience commune et repousse les limites entre artiste, acteur, et spectateur, faisant de ce dernier un participant à l’œuvre. S’il interroge ainsi les relations entre les humains, Nakeu se penche aussi sur celles que nous entretenons avec la nature. Son travail explore la conscience environne- mentale et décoloniale, les systèmes de connaissance, et la spiritualité africaine."
 		},
+		"exhibitions": [
+			{
+				"title": "The Savage Facing the Beast",
+				"description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+				"curator": "",
+				"year": "2021",
+				"venue": "Palais de Tokyo",
+				"city": "Paris",
+				"country": "France",
+				"link": "xyz.de"
+			},
+			{
+				"title": "Hypnosis Hybrid",
+				"description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+				"year": "2017",
+				"venue": "Test",
+				"city": "London",
+				"country": "UK",
+				"link": "somewebsite.de"
+			},
+			{
+				"title": "Mediation Interrogative",
+				"description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+				"year": "2018",
+				"venue": "Goethe Institute",
+				"city": "Yaoundé",
+				"country": "Cameroon",
+				"link": "someotherwebsite.de"
+			}
+		],
 		"contact": {},
 		"works": [
 			{
